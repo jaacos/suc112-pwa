@@ -1,48 +1,282 @@
 [
   {
     "id": "guia-001",
-    "categoria": "Ejemplo",
-    "titulo": "[DATO DE PRUEBA] Patología de ejemplo A",
-    "sintomas_clave": ["síntoma de ejemplo 1", "síntoma de ejemplo 2"],
-    "definicion": "[PLACEHOLDER: pendiente de validación clínica] Texto de definición de ejemplo para maquetar el módulo. Sustituir por contenido real validado por Airam Acosta.",
-    "signos_alarma": [
-      "[PLACEHOLDER: pendiente de validación clínica] Signo de alarma de ejemplo 1",
-      "[PLACEHOLDER: pendiente de validación clínica] Signo de alarma de ejemplo 2"
+    "categoria": "Shock distributivo",
+    "titulo": "Shock Séptico",
+    "sintomas_clave": [
+      "Fiebre (o hipotermia en casos graves o ancianos)",
+      "Taquicardia",
+      "Taquipnea",
+      "Alteración del estado mental (confusión, desorientación, letargo)",
+      "Oliguria",
+      "Escalofríos",
+      "Piel inicialmente caliente y eritematosa que progresa a piel fría, pálida o cianótica"
     ],
-    "manejo": "[PLACEHOLDER: pendiente de validación clínica] Texto de manejo de ejemplo.",
-    "derivacion": "[PLACEHOLDER: pendiente de validación clínica] Criterio de derivación de ejemplo.",
+    "definicion": "Disfunción orgánica potencialmente mortal causada por una respuesta anómala (desregulada) del huésped a una infección, caracterizada por una hipotensión persistente que no responde a la resucitación inicial con líquidos y que requiere el uso de vasopresores para mantener la presión arterial media (PAM) y corregir la hipoperfusión tisular.",
+    "signos_alarma": [
+      "Presión arterial sistólica (PAS) < 90 mmHg o PAM < 65-70 mmHg refractaria a fluidos",
+      "Niveles de lactato sérico > 4 mmol/L",
+      "Relleno capilar lento (≥ 3 segundos)",
+      "Presencia de petequias o livideces cutáneas",
+      "Oliguria extrema (< 0.5 mL/kg/h durante al menos una hora)"
+    ],
+    "manejo": "Medición rápida de lactato sérico, obtención de hemocultivos (mínimo 2 sets) antes de iniciar la antibioterapia (sin retrasarla más de 1-2 horas desde la sospecha), administración precoz de antibióticos de amplio espectro e iniciar una resucitación agresiva con cristaloides isotónicos (bolo inicial de 30 ml/kg o 500 ml según guías). Si persiste la hipotensión durante o tras la infusión de fluidos, iniciar de forma inmediata vasopresores periféricos (Noradrenalina como primera elección) para mantener una PAM ≥ 65 mmHg.",
+    "derivacion": "Activación inmediata del \"Código Shock/Código Sepsis\" y traslado de extrema urgencia a la Unidad de Cuidados Intensivos (UCI) o centro útil con capacidad de monitorización invasiva y control del foco infeccioso.",
     "estado": "borrador",
-    "version": "0.1",
+    "version": "1.0",
     "fecha_validacion": null
   },
   {
     "id": "guia-002",
-    "categoria": "Ejemplo",
-    "titulo": "[DATO DE PRUEBA] Patología de ejemplo B",
-    "sintomas_clave": ["síntoma de ejemplo 3", "síntoma de ejemplo 4"],
-    "definicion": "[PLACEHOLDER: pendiente de validación clínica] Texto de definición de ejemplo.",
-    "signos_alarma": [
-      "[PLACEHOLDER: pendiente de validación clínica] Signo de alarma de ejemplo"
+    "categoria": "Shock distributivo",
+    "titulo": "Shock Anafiláctico",
+    "sintomas_clave": [
+      "Afectación de la piel y mucosas (urticaria generalizada, prurito, eritema, flushing, edema de labios, lengua y úvula)",
+      "Compromiso respiratorio (disnea, sibilancias, estridor)",
+      "Hipotensión o síntomas de disfunción orgánica"
     ],
-    "manejo": "[PLACEHOLDER: pendiente de validación clínica] Texto de manejo de ejemplo.",
-    "derivacion": "[PLACEHOLDER: pendiente de validación clínica] Criterio de derivación de ejemplo.",
+    "definicion": "Situación grave de instauración rápida (de minutos a pocas horas) y potencialmente mortal, producida por una reacción sistémica de hipersensibilidad generalizada ante la exposición a un alérgeno desencadenante, afectando críticamente la vía aérea, la respiración y el sistema cardiovascular.",
+    "signos_alarma": [
+      "Edema de laringe con obstrucción inminente de la vía aérea (estridor laríngeo, babeo, disfonía)",
+      "Broncoespasmo grave con silencio auscultatorio",
+      "Colapso cardiovascular con hipotensión severa",
+      "Alteración del nivel de conciencia"
+    ],
+    "manejo": "Retirar inmediatamente la causa o suspender el fármaco sospechoso. Administrar inmediatamente Adrenalina por vía intramuscular (IM) en la cara anterolateral del muslo (0.5 mg en adultos, repetible si no hay mejoría). Garantizar oxigenoterapia de alto flujo, canalizar vía venosa para infusión rápida de volumen (cristaloides) y valorar intubación endotraqueal precoz o cricotiroidotomía de urgencia si hay edema de vía aérea superior.",
+    "derivacion": "Evacuación médica inmediata en ambulancia de Soporte Vital Avanzado (SVA) para ingreso prioritario en Urgencias Hospitalarias / UCI debido al alto riesgo de parada cardiorrespiratoria (PCR).",
     "estado": "borrador",
-    "version": "0.1",
+    "version": "1.0",
     "fecha_validacion": null
   },
   {
     "id": "guia-003",
-    "categoria": "Ejemplo",
-    "titulo": "[DATO DE PRUEBA] Patología de ejemplo C",
-    "sintomas_clave": ["síntoma de ejemplo 5"],
-    "definicion": "[PLACEHOLDER: pendiente de validación clínica] Texto de definición de ejemplo.",
-    "signos_alarma": [
-      "[PLACEHOLDER: pendiente de validación clínica] Signo de alarma de ejemplo"
+    "categoria": "Urgencias cardiovasculares / Insuficiencia cardíaca aguda",
+    "titulo": "Edema Agudo de Pulmón (EAP) Cardiogénico",
+    "sintomas_clave": [
+      "Disnea de aparición brusca o rápidamente progresiva",
+      "Ortopnea severa (el paciente prefiere sentarse)",
+      "Disnea paroxística nocturna",
+      "Tos con expectoración de líquido rosado espumoso",
+      "Diaforesis importante, palidez cutánea y frialdad distal",
+      "Taquicardia (FC > 120 lpm) y taquipnea (FR > 25 rpm)",
+      "Crepitantes pulmonares bilaterales diseminados (\"en marea ascendente\") y/o sibilancias"
     ],
-    "manejo": "[PLACEHOLDER: pendiente de validación clínica] Texto de manejo de ejemplo.",
-    "derivacion": "[PLACEHOLDER: pendiente de validación clínica] Criterio de derivación de ejemplo.",
-    "estado": "validado",
+    "definicion": "Emergencia cardiológica secundaria a un fallo agudo del ventrículo izquierdo que provoca una extravasación de líquido en el intersticio y los alvéolos pulmonares, comprometiendo críticamente la hematosis pulmonar y el trabajo respiratorio.",
+    "signos_alarma": [
+      "Insuficiencia respiratoria grave con SatO2 < 90% a pesar de oxígeno",
+      "Inestabilidad hemodinámica (TAS < 90 mmHg con signos de hipoperfusión o shock cardiogénico)",
+      "Bradicardia extrema previa al agotamiento respiratorio",
+      "Deterioro del nivel de conciencia (Glasgow < 9)"
+    ],
+    "manejo": "Mantener al paciente en posición semiincorporada (sedestación), oxigenoterapia para mantener SatO2 > 90%, monitorización continua de constantes, ECG y capnografía. Utilizar Ventilación Mecánica No Invasiva (VMNI) en modo CPAP o BiPAP de forma precoz para reclutar alvéolos y reducir el trabajo muscular. Administrar diuréticos de asa IV (Furosemida de inicio a 10 mg/h o en bolo), vasodilatadores (Nitroglicerina en perfusión continua si la TAS es > 90 mmHg) y analgesia con opiáceos (Cloruro mórfico) si hay dolor o ansiedad grave.",
+    "derivacion": "Traslado inmediato en Unidad de Soporte Vital Avanzado para ingreso en Cuidados Críticos (UCI/Urgencias Hospitalarias).",
+    "estado": "borrador",
     "version": "1.0",
-    "fecha_validacion": "2026-01-15"
+    "fecha_validacion": null
+  },
+  {
+    "id": "guia-004",
+    "categoria": "Urgencias cardiovasculares / respiratorias",
+    "titulo": "Tromboembolismo Pulmonar (TEP) de Alto Riesgo",
+    "sintomas_clave": [
+      "Disnea súbita e intensa",
+      "Taquipnea (FR ≥ 20 rpm) y taquicardia sinusal",
+      "Dolor torácico pleurítico o interescapular",
+      "Cianosis",
+      "Intranquilidad o ansiedad",
+      "Tos y hemoptisis",
+      "Signos de trombosis venosa profunda (TVP) en extremidades inferiores (a veces)"
+    ],
+    "definicion": "Obstrucción mecánica de la arteria pulmonar o de sus ramas primarias por un trombo, que en su forma de alto riesgo provoca una sobrecarga aguda y crítica del ventrículo derecho, condicionando fallo ventricular derecho y shock obstructivo.",
+    "signos_alarma": [
+      "Síncope",
+      "Hipotensión arterial severa (TAS < 90 mmHg o caída > 40 mmHg)",
+      "Signos de shock obstructivo (frialdad, mala perfusión, oliguria)",
+      "Ingurgitación yugular o reflujo hepatoyugular positivo (insuficiencia cardíaca derecha aguda)"
+    ],
+    "manejo": "Garantizar el abordaje ABCDE, administrar de inmediato oxígeno de alto flujo para corregir la hipoxemia letal, canalizar vía venosa y realizar ECG de 12 derivaciones (buscar taquicardia sinusal, bloqueo de rama derecha de nueva aparición o el patrón clásico S1Q3T3). Si el paciente está inestable o en parada cardiorrespiratoria (PCR) inminente por TEP masivo, considerar el uso urgente de trombolíticos (RTPA - Alteplasa: 100 mg), y en fases iniciales, iniciar anticoagulación con Heparina (80 UI/kg IV).",
+    "derivacion": "Traslado urgente de la máxima prioridad en Unidad asistencial medicalizada (UME) a un hospital útil con capacidad quirúrgica especializada / hemodinámica (trombectomía o soporte ECMO-RCP).",
+    "estado": "borrador",
+    "version": "1.0",
+    "fecha_validacion": null
+  },
+  {
+    "id": "guia-005",
+    "categoria": "Urgencias traumatológicas / Neurotrauma",
+    "titulo": "Traumatismo Craneoencefálico (TCE) Grave",
+    "sintomas_clave": [
+      "Estado de inconsciencia o coma, incapacidad para seguir órdenes sencillas",
+      "Asimetría pupilar (anisocoria) o pupilas fijas y dilatadas",
+      "Heridas en cuero cabelludo con posible fractura craneal abierta",
+      "Salida de líquido cefalorraquídeo (LCR) o sangre por nariz u oídos (rinorrea/otorrea)",
+      "Posturas de decorticación o descerebración ante estímulos dolorosos"
+    ],
+    "definicion": "Alteración funcional o estructural del cerebro secundaria a una fuerza externa, manifestada clínicamente por un estado de coma con una puntuación en la Escala de Coma de Glasgow (GCS) de 3 a 8 puntos tras la reanimación inicial.",
+    "signos_alarma": [
+      "Tríada de Cushing (hipertensión arterial + bradicardia + alteraciones respiratorias/bradipnea)",
+      "Anisocoria con midriasis unilateral arreactiva (herniación uncal inminente)",
+      "Caída rápida de la GCS (> 2-3 puntos)"
+    ],
+    "manejo": "Priorizar el control de la vía aérea (IOT) mediante secuencia rápida de intubación (SRI) asegurando la protección de la columna cervical. Evitar estrictamente la hipoxia (mantener SatO2 > 95% o PaO2 > 100 mmHg) e impedir la hipotensión (mantener la TAM > 80-100 mmHg para asegurar la perfusión cerebral usando SSF o Noradrenalina si es preciso). Si hay signos de herniación cerebral o aumento agudo de la PIC, administrar terapia osmótica (Manitol 20%: 0.25-1 cc/kg o SSH 3%: 5 ml/kg en 15 minutos) y realizar hiperventilación moderada transitoria (etCO2 objetivo: 30-35 mmHg). Evitar sueros glucosados o hipotónicos por riesgo de edema cerebral.",
+    "derivacion": "Evacuación prioritaria inmediata a un hospital de tercer nivel con Servicio de Neurocirugía y Unidad de Cuidados Intensivos Pediátricos o de Adultos (Role 3).",
+    "estado": "borrador",
+    "version": "1.0",
+    "fecha_validacion": null
+  },
+  {
+    "id": "guia-006",
+    "categoria": "Traumatismo torácico / Lesiones con riesgo inminente de muerte (RIM)",
+    "titulo": "Neumotórax a Tensión",
+    "sintomas_clave": [
+      "Dificultad respiratoria severa (disnea grave) y progresiva",
+      "Ausencia o abolición del murmullo vesicular unilateral",
+      "Timpanismo a la percusión del hemitórax afectado",
+      "Desviación de la tráquea hacia el lado contralateral",
+      "Enfisema subcutáneo",
+      "Dolor torácico unilateral de instauración brusca"
+    ],
+    "definicion": "Acumulación progresiva de aire a presión dentro del espacio pleural, generalmente por un mecanismo de válvula unidireccional, que colapsa el pulmón ipsilateral, desplaza el mediastino, comprime el retorno venoso (venas cavas) y conduce a un shock obstructivo crítico.",
+    "signos_alarma": [
+      "Ingurgitación yugular extrema (por colapso de las venas cavas)",
+      "Hipotensión severa o shock refractario",
+      "Cianosis de rápida aparición",
+      "Actividad eléctrica sin pulso (AESP) o colapso hemodinámico precoz en pacientes ventilados"
+    ],
+    "manejo": "DESCOMPRESIÓN PLEURAL INMEDIATA. No se debe esperar a confirmación radiológica. Realizar toracocentesis con aguja de grueso calibre en el 2º espacio intercostal línea medioclavicular (o 5º espacio intercostal línea axilar anterior). Posteriormente, se debe realizar una toracostomía definitiva con colocación de un tubo de tórax (drenaje pleural) conectado a sello de agua o aspiración activa.",
+    "derivacion": "Traslado médico de extrema urgencia (prioridad roja absoluta) a un centro hospitalario con capacidad quirúrgica (cirugía torácica o general).",
+    "estado": "borrador",
+    "version": "1.0",
+    "fecha_validacion": null
+  },
+  {
+    "id": "guia-007",
+    "categoria": "Urgencias neurológicas",
+    "titulo": "Accidente Cerebrovascular (ACV) Isquémico Agudo (Código Ictus)",
+    "sintomas_clave": [
+      "Paresia o parálisis de miembros (habitualmente hemiparesia o hemiplejia contralateral)",
+      "Parálisis facial unilateral (asimetría en la sonrisa)",
+      "Trastornos del lenguaje (afasia, disartria, mutismo)",
+      "Alteraciones visuales bruscas o hemi-inatención"
+    ],
+    "definicion": "Déficit neurológico focal agudo y brusco de origen vascular, secundario a la oclusión de una arteria cerebral que condiciona isquemia y daño del parénquima cerebral.",
+    "signos_alarma": [
+      "Alteración progresiva o brusca del nivel de conciencia (estupor o coma)",
+      "Rigidez de nuca o vómitos explosivos sin vértigo (sugestivos de edema o componente hemorrágico asociado)",
+      "Presencia de pupilas ipsolaterales dilatadas o anisocoria"
+    ],
+    "manejo": "Asegurar el ABC y estabilizar constantes. Realizar una valoración rápida mediante la Escala de Cincinnati e identificar con precisión la hora exacta de inicio de los síntomas. Descartar de inmediato hipoglucemia mediante glucemia capilar. Mantener al paciente con la cabecera elevada a 30º, evitar la administración de antiagregantes (como aspirina) o anticoagulantes prehospitalarios hasta descartar hemorragia por TAC, y trasladar en reposo absoluto.",
+    "derivacion": "Activación telefónica urgente del \"Código Ictus\" y traslado de la máxima prioridad en ambulancia medicalizada a un hospital con capacidad de trombólisis y trombectomía mecánica urgente (tiempo de evolución óptimo < 4.5 horas).",
+    "estado": "borrador",
+    "version": "1.0",
+    "fecha_validacion": null
+  },
+  {
+    "id": "guia-008",
+    "categoria": "Urgencias endocrino-metabólicas",
+    "titulo": "Cetoacidosis Diabética (CAD)",
+    "sintomas_clave": [
+      "Poliuria, polidipsia, pérdida rápida de peso",
+      "Dolor abdominal difuso, náuseas y vómitos",
+      "Debilidad progresiva o astenia",
+      "Respiración de Kussmaul (hiperventilación profunda, rápida y con aliento cetósico con olor a frutas)"
+    ],
+    "definicion": "Complicación metabólica aguda y grave de la diabetes mellitus caracterizada por la tríada de hiperglucemia severa (usualmente > 250 mg/dl), acidosis metabólica (pH < 7.30 o bicarbonato bajo) y presencia de cuerpos cetónicos en sangre y orina.",
+    "signos_alarma": [
+      "Deshidratación grave (mucosas secas, pérdida de turgencia de la piel, hipotensión arterial, taquicardia)",
+      "Alteración del nivel de conciencia (somnolencia, obnubilación, estupor o coma)",
+      "Hipopotasemia severa asociada (riesgo de arritmias ventriculares letales)"
+    ],
+    "manejo": "Garantizar el soporte de funciones vitales (ABC). El pilar fundamental es la fluidoterapia agresiva con suero salino al 0.9% para restaurar el volumen intravascular y corregir la deshidratación. Medir la glucemia capilar y pautar una perfusión continua de insulina rápida para corregir la hiperglucemia, siempre que se descarte previamente una hipopotasemia grave. Realizar un control estrecho de electrólitos (potasio, sodio) y del estado ácido-base mediante gasometría.",
+    "derivacion": "Traslado urgente a Urgencias Hospitalarias para ingreso en Unidad de Cuidados Intermedios o UCI para corrección metabólica y estrecha monitorización analítica.",
+    "estado": "borrador",
+    "version": "1.0",
+    "fecha_validacion": null
+  },
+  {
+    "id": "guia-009",
+    "categoria": "Urgencias neurológicas",
+    "titulo": "Estatus Epiléptico (Status Epilepticus)",
+    "sintomas_clave": [
+      "Actividad motora convulsiva generalizada tónico-clónica persistente (movimientos bruscos e incontrolados, rigidez muscular seguidos de sacudidas rítmicas) o crisis parciales continuas",
+      "Pérdida total del conocimiento",
+      "Mordedura de lengua, sialorrea y relajación de esfínteres"
+    ],
+    "definicion": "Urgencia neurológica crítica caracterizada por una crisis convulsiva que dura más de 30 minutos, o crisis repetidas de forma continua en las que el paciente no recupera la conciencia entre los episodios.",
+    "signos_alarma": [
+      "Apnea prolongada, patrón respiratorio ineficaz o cianosis (riesgo inminente de hipoxia cerebral)",
+      "Hipertermia extrema (por actividad muscular sostenida)",
+      "Rabdomiólisis secundaria o acidosis metabólica grave",
+      "Estatus mioclónico precoz"
+    ],
+    "manejo": "Proteger al paciente de autolesiones (colocar en posición semiprona o decúbito supino seguro). Garantizar la permeabilidad de la vía aérea y administrar oxígeno de alto flujo. Canalizar vía venosa y administrar de primera línea benzodiacepinas IV: Diazepam en bolos directos (o en su defecto Midazolam). Si la crisis persiste, iniciar fármacos anticomiciales de segunda línea como Fenitoína IV (a dosis de carga de 18 mg/kg) o Fenobarbital IV (20 mg/kg), vigilando estrechamente la función respiratoria ante el riesgo de depresión respiratoria que precise IOT.",
+    "derivacion": "Traslado médico urgente (prioridad 1 - Emergencia) en unidad de soporte avanzado con destino directo a Urgencias de un hospital con Unidad de Cuidados Críticos.",
+    "estado": "borrador",
+    "version": "1.0",
+    "fecha_validacion": null
+  },
+  {
+    "id": "guia-010",
+    "categoria": "Urgencias cardiovasculares / trauma torácico grave",
+    "titulo": "Taponamiento Cardíaco",
+    "sintomas_clave": [
+      "Disnea súbita e intensa",
+      "Opresión o dolor torácico",
+      "Taquipnea y taquicardia extrema",
+      "Pulso paradójico (marcado descenso de la tensión arterial sistólica durante la inspiración)"
+    ],
+    "definicion": "Compresión mecánica y progresiva del corazón debida a la acumulación masiva o rápida de líquido (sangre o exudado) en el saco pericárdico, que impide el llenado ventricular, disminuye críticamente el gasto cardíaco y provoca shock obstructivo.",
+    "signos_alarma": [
+      "Tríada de Beck clásica (hipotensión arterial severa, ingurgitación yugular extrema y ruidos cardíacos muy apagados u abolidos)",
+      "Signo de Kussmaul (aumento de la distensión venosa yugular con la inspiración)",
+      "Disociación electromecánica (actividad eléctrica sin pulso - AESP) en el monitor"
+    ],
+    "manejo": "Abordaje inmediato CABCDE, priorizando el soporte hemodinámico. Administrar oxígeno de alto flujo, canalizar dos accesos venosos periféricos de grueso calibre e infundir fluidos con precaución (cristaloides) para intentar aumentar la precarga y el gasto cardíaco de forma transitoria. Si el paciente está en situación de parada cardíaca o shock refractario in extremis, se debe realizar una pericardiocentesis descompresiva de emergencia (drenaje percutáneo con aguja dirigido preferiblemente por ecografía E-FAST o a ciegas por vía subxifoidea).",
+    "derivacion": "Evacuación médica inmediata de la máxima prioridad (roja) con aviso previo para quirófano de Cirugía Cardiovascular.",
+    "estado": "borrador",
+    "version": "1.0",
+    "fecha_validacion": null
+  },
+  {
+    "id": "guia-011",
+    "categoria": "Urgencias respiratorias",
+    "titulo": "Crisis Asmática Grave (Asma Crítico)",
+    "sintomas_clave": [
+      "Disnea severa en reposo (el paciente prefiere inclinarse hacia adelante en posición de trípode)",
+      "Incapacidad para hablar con frases completas (habla mediante palabras sueltas o frases cortas)",
+      "Taquipnea (FR > 30 rpm) y taquicardia (FC > 110-120 lpm)",
+      "Uso marcado de la musculatura respiratoria accesoria y tiraje supraclavicular e intercostal"
+    ],
+    "definicion": "Episodio agudo y severo de disnea asociado a una obstrucción generalizada y rápidamente progresiva de la vía aérea inferior, secundaria a broncoespasmo severo, inflamación y taponamiento mucoso.",
+    "signos_alarma": [
+      "Tórax silente (silencio auscultatorio completo) por ausencia casi total de flujo de aire",
+      "Cianosis central, diaforesis profusa, agitación que progresa a somnolencia o confusión",
+      "Desaturación crítica (SpO2 < 90%) que no mejora con flujos estándar de oxígeno"
+    ],
+    "manejo": "Administrar oxígeno de alto flujo para mantener SatO2 > 93-95%. Iniciar de inmediato nebulización con agonistas beta-2 (Salbutamol: 5 mg) combinados con anticolinérgicos (Bromuro de Ipratropio: 500 mcg) con oxígeno a 8 litros/min, repetible cada 20 minutos. Administrar de forma precoz corticoides sistémicos IV (Metilprednisolona o Dexametasona) y considerar la infusión de Sulfato de Magnesio IV (40 mg/kg en 20 minutos). Si hay signos de parada respiratoria inminente o agotamiento muscular extremo, preparar para secuencia de intubación rápida y conexión a ventilación mecánica.",
+    "derivacion": "Traslado médico urgente en Unidad de SVA con destino a una UCI.",
+    "estado": "borrador",
+    "version": "1.0",
+    "fecha_validacion": null
+  },
+  {
+    "id": "guia-012",
+    "categoria": "Urgencias traumatológicas / Extremidades",
+    "titulo": "Síndrome Compartimental Agudo",
+    "sintomas_clave": [
+      "Dolor severo, continuo y desproporcionado a la lesión física, que no cede con analgésicos opioides potentes y aumenta de manera extrema con el estiramiento pasivo de los grupos musculares del compartimento afectado",
+      "Tumefacción o tensión firme al tacto (tensión leñosa) de la zona",
+      "Parestesias y disminución de la sensibilidad en el territorio de los nervios afectados"
+    ],
+    "definicion": "Incremento crítico de la presión hidrostática dentro de un compartimento osteofascial cerrado en una extremidad, que supera la presión de perfusión capilar, provocando isquemia tisular progresiva, daño neuromuscular irreversible y necrosis muscular si no se interviene de urgencia.",
+    "signos_alarma": [
+      "Pérdida de la fuerza motriz o parálisis del miembro",
+      "Frialdad extrema y palidez cutánea (piel marmórea)",
+      "Ausencia de pulsos arteriales distales (signo muy tardío que indica daño isquémico establecido de larga evolución)"
+    ],
+    "manejo": "Retirar inmediatamente cualquier elemento compresivo externo (férulas, vendajes, escayolas, etc.). Mantener el miembro afectado a la altura del corazón (no elevarlo por encima del nivel cardíaco para evitar una disminución adicional de la presión de perfusión capilar), asegurar una analgesia potente, mantener una adecuada perfusión sistémica (evitar hipotensión) y realizar monitorización física constante del miembro.",
+    "derivacion": "Derivación de la máxima urgencia quirúrgica para la realización de una fasciotomía descompresiva de emergencia en un centro de trauma (el plazo terapéutico óptimo debe ser inferior a 6 horas desde el inicio de los síntomas para evitar secuelas neurológicas permanentes o necrosis).",
+    "estado": "borrador",
+    "version": "1.0",
+    "fecha_validacion": null
   }
 ]
