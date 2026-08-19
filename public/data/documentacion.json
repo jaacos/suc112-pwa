@@ -1,0 +1,12 @@
+[
+  {
+    "id": "doc-001",
+    "titulo": "[DATO DE PRUEBA] Documento interno de ejemplo",
+    "categoria": "Normativa",
+    "resumen": "Entrada de prueba para maquetar el módulo de documentación interna.",
+    "contenido": "[PLACEHOLDER: pendiente de contenido real] Texto de ejemplo para el visor de documentación interna.",
+    "estado": "borrador",
+    "version": "0.1",
+    "fecha_validacion": null
+  }
+]

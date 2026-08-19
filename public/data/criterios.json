@@ -1,0 +1,27 @@
+[
+  {
+    "id": "crit-001",
+    "titulo": "[DATO DE PRUEBA] Tipo de incidente de ejemplo A",
+    "tipo_incidente": "Ejemplo",
+    "criterios": [
+      { "texto": "[PLACEHOLDER: pendiente de validación clínica] Criterio de ejemplo 1", "nivel": "critico" },
+      { "texto": "[PLACEHOLDER: pendiente de validación clínica] Criterio de ejemplo 2", "nivel": "alerta" }
+    ],
+    "recurso_recomendado": "[PLACEHOLDER: pendiente de validación operativa] Recurso de ejemplo",
+    "estado": "borrador",
+    "version": "0.1",
+    "fecha_validacion": null
+  },
+  {
+    "id": "crit-002",
+    "titulo": "[DATO DE PRUEBA] Tipo de incidente de ejemplo B",
+    "tipo_incidente": "Ejemplo",
+    "criterios": [
+      { "texto": "[PLACEHOLDER: pendiente de validación clínica] Criterio de ejemplo 3", "nivel": "info" }
+    ],
+    "recurso_recomendado": "[PLACEHOLDER: pendiente de validación operativa] Recurso de ejemplo",
+    "estado": "borrador",
+    "version": "0.1",
+    "fecha_validacion": null
+  }
+]

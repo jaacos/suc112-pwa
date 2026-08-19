@@ -1,0 +1,48 @@
+[
+  {
+    "id": "guia-001",
+    "categoria": "Ejemplo",
+    "titulo": "[DATO DE PRUEBA] Patología de ejemplo A",
+    "sintomas_clave": ["síntoma de ejemplo 1", "síntoma de ejemplo 2"],
+    "definicion": "[PLACEHOLDER: pendiente de validación clínica] Texto de definición de ejemplo para maquetar el módulo. Sustituir por contenido real validado por Airam Acosta.",
+    "signos_alarma": [
+      "[PLACEHOLDER: pendiente de validación clínica] Signo de alarma de ejemplo 1",
+      "[PLACEHOLDER: pendiente de validación clínica] Signo de alarma de ejemplo 2"
+    ],
+    "manejo": "[PLACEHOLDER: pendiente de validación clínica] Texto de manejo de ejemplo.",
+    "derivacion": "[PLACEHOLDER: pendiente de validación clínica] Criterio de derivación de ejemplo.",
+    "estado": "borrador",
+    "version": "0.1",
+    "fecha_validacion": null
+  },
+  {
+    "id": "guia-002",
+    "categoria": "Ejemplo",
+    "titulo": "[DATO DE PRUEBA] Patología de ejemplo B",
+    "sintomas_clave": ["síntoma de ejemplo 3", "síntoma de ejemplo 4"],
+    "definicion": "[PLACEHOLDER: pendiente de validación clínica] Texto de definición de ejemplo.",
+    "signos_alarma": [
+      "[PLACEHOLDER: pendiente de validación clínica] Signo de alarma de ejemplo"
+    ],
+    "manejo": "[PLACEHOLDER: pendiente de validación clínica] Texto de manejo de ejemplo.",
+    "derivacion": "[PLACEHOLDER: pendiente de validación clínica] Criterio de derivación de ejemplo.",
+    "estado": "borrador",
+    "version": "0.1",
+    "fecha_validacion": null
+  },
+  {
+    "id": "guia-003",
+    "categoria": "Ejemplo",
+    "titulo": "[DATO DE PRUEBA] Patología de ejemplo C",
+    "sintomas_clave": ["síntoma de ejemplo 5"],
+    "definicion": "[PLACEHOLDER: pendiente de validación clínica] Texto de definición de ejemplo.",
+    "signos_alarma": [
+      "[PLACEHOLDER: pendiente de validación clínica] Signo de alarma de ejemplo"
+    ],
+    "manejo": "[PLACEHOLDER: pendiente de validación clínica] Texto de manejo de ejemplo.",
+    "derivacion": "[PLACEHOLDER: pendiente de validación clínica] Criterio de derivación de ejemplo.",
+    "estado": "validado",
+    "version": "1.0",
+    "fecha_validacion": "2026-01-15"
+  }
+]

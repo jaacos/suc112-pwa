@@ -1,0 +1,78 @@
+/*
+  TOKENS DE DISEÑO — PLACEHOLDER INSTITUCIONAL
+  ---------------------------------------------
+  Paleta provisional inspirada en el azul institucional de emergencias 112
+  usado a nivel europeo, más rojo crítico para alertas. SUSTITUIR por
+  colores/logo oficiales del SUC en cuanto estén disponibles (buscar
+  "[PLACEHOLDER]" en este archivo).
+
+  Tipografía: pila de fuentes del sistema operativo, sin carga de red.
+  Decisión deliberada: la app debe funcionar sin conexión desde el primer
+  render, y depender de Google Fonts u otro CDN de tipografía rompería
+  eso en el primer arranque offline.
+*/
+
+:root {
+  /* [PLACEHOLDER] Color institucional primario */
+  --color-primary: #0B3D91;
+  --color-primary-dark: #082A66;
+  --color-primary-light: #E8EEF9;
+
+  /* [PLACEHOLDER] Rojo de alerta/crítico — criterios de activación graves */
+  --color-critical: #C41E3A;
+  --color-critical-light: #FBE7EA;
+
+  /* Estado de disponibilidad de módulos */
+  --color-offline-ok: #1E7B34;
+  --color-offline-ok-bg: #E5F3E8;
+  --color-online-required: #B36B00;
+  --color-online-required-bg: #FBEEDD;
+
+  /* Neutros */
+  --color-bg: #F5F7FA;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #EEF1F5;
+  --color-border: #D7DCE3;
+  --color-text: #1A1D23;
+  --color-text-muted: #5A6472;
+  --color-text-inverse: #FFFFFF;
+
+  /* Tipografía — pila de sistema, legible a distancia */
+  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Consolas, monospace;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: 1.75rem;
+  --fs-2xl: 2.25rem;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Espaciado */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 4px 12px rgba(16, 24, 40, 0.10);
+  --shadow-lg: 0 12px 32px rgba(16, 24, 40, 0.16);
+
+  --focus-ring: 0 0 0 3px rgba(11, 61, 145, 0.35);
+
+  --header-height: 64px;
+  --sidebar-width: 220px;
+}

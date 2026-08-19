@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dir-001",
+    "nombre": "[DATO DE PRUEBA] Centro de ejemplo A",
+    "tipo": "Punto de atención continuada",
+    "municipio": "Municipio de ejemplo",
+    "direccion": "[PLACEHOLDER] Dirección de ejemplo",
+    "telefono": "[PLACEHOLDER] 000 000 000",
+    "horario": "[PLACEHOLDER] 24 horas",
+    "notas": "Entrada de prueba para maquetar el módulo. Sustituir por datos reales del directorio.",
+    "estado": "borrador",
+    "version": "0.1",
+    "fecha_validacion": null
+  },
+  {
+    "id": "dir-002",
+    "nombre": "[DATO DE PRUEBA] Centro de ejemplo B",
+    "tipo": "Hospital",
+    "municipio": "Municipio de ejemplo",
+    "direccion": "[PLACEHOLDER] Dirección de ejemplo",
+    "telefono": "[PLACEHOLDER] 000 000 000",
+    "horario": "[PLACEHOLDER] 24 horas",
+    "notas": "Entrada de prueba.",
+    "estado": "borrador",
+    "version": "0.1",
+    "fecha_validacion": null
+  }
+]
